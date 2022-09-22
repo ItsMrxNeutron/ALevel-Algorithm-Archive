@@ -62,7 +62,7 @@ class NodePool:
                 self.node_pool[i].next = self.free_ptr
                 self.free_ptr += 1
                 self.node_pool.insert(i, x)
-                return
+                return 
                 
 
     
