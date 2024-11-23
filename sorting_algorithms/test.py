@@ -13,7 +13,7 @@ def setup_shuffle():
     sorted_list = [i for i in range(999)]
     return unsorted_list, sorted_list
 
-class TestSearch(unittest.TestCase):
+class TestSort(unittest.TestCase):
     
     def test_single_bubblesort(self):
         unsorted_list, sorted_list = setup_shuffle()
